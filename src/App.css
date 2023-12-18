@@ -78,3 +78,10 @@
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
+.img-class {
+	width: 800px;
+	height: 400px;
+	cursor: pointer;
+	border-radius: 50px;
+}

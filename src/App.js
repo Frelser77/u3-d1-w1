@@ -10,10 +10,10 @@ function App() {
 			<header className="App-header">
 				<TitleComponent style={{ color: "#bf7a7a", fontWaight: "bold" }} textTitle="First time with react <3" />
 				<ImageComponent
-					className="img-hover-effect"
+					className="img-hover-effect img-class"
 					src="/img/reactimg.png"
 					alt="Reacr immagine"
-					style={{ width: "800px", height: "400px", cursor: "pointer" }}
+					style={{ border: "1px solid black" }}
 					href="https://reactjs.org"
 				/>
 				<ButtonComponent
@@ -22,10 +22,10 @@ function App() {
 					style={{ marginBlock: "40px", cursor: "pointer" }}
 				/>
 				<ImageComponent
-					className="img-hover-effect2"
+					className="img-hover-effect2 img-class"
 					src="/img/reactimg.png"
 					alt="Reacr immagine"
-					style={{ width: "800px", height: "400px", cursor: "pointer" }}
+					style={{ border: "1px solid red" }}
 					href="https://www.topolino.it/personaggio/pippo/"
 				/>
 				<ButtonComponent
